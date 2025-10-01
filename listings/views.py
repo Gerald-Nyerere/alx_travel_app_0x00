@@ -3,6 +3,11 @@ from rest_framework import viewsets
 from .models import Listing, Booking
 from .serializers import ListingSerializer, BookingSerializer
 
+<<<<<<< HEAD
+=======
+
+# Create your views here.
+>>>>>>> origin/main
 class ListingViewSet(viewsets.ModelViewSet):
     queryset = Listing.objects.all()
     serializer_class = ListingSerializer
